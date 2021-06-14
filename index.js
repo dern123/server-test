@@ -160,7 +160,7 @@ app.post('/api/forma', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-	res.sendFile(__dirname + '/public/index.html');
+	res.sendFile(__dirname + '/public');
 });
 
 const PORT = process.env.PORT || 8085;
